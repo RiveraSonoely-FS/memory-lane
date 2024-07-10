@@ -3,8 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Memory Lane Assignment`,
-    siteUrl: `https://www.yourdomain.tld`,
+    pathPrefix: "/memory-lane",
   },
   plugins: [],
 }
