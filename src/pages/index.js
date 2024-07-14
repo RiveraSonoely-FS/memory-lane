@@ -1,5 +1,4 @@
 import * as React from "react";
-import robotPic from "../images/robot.jpg";
 
 const pageStyles = {
   color: "#232129",
@@ -48,21 +47,17 @@ const HomePage = () => {
   return (
     <main style={pageStyles}>
       <h1 style={headingStyles}>Welcome to Memory Lane</h1>
-      <img src={robotPic} style={pictureStyles} alt="Robot" />
+      <img src="https://api.reliasoftware.com/uploads/web_development_is_important_176fa0618e.jpg" style={pictureStyles} />
       <div style={paragraphStyles}>
         <h3>The Future of Web Development - Jul 9</h3>
-        {process.env.NODE_ENV === "development" && (
-          <p>
+        <p>
             As a web development student, my journey has been filled with challenges, but I am determined to graduate and succeed in this 
             field. Despite facing setbacks and technical hurdles along the way, each obstacle has strengthened my resolve and deepened my 
             understanding of web technologies. I've learned to persevere through coding bugs, complex projects, and demanding deadlines, 
             knowing that overcoming these challenges will prepare me for a rewarding career in web development. With dedication and a 
             passion for learning, I am committed to achieving my goal of graduating and contributing to the future of digital innovation.
           </p>
-        
-        )}
         <h3>My Experience Building an API - Jul 14</h3>
-        {process.env.NODE_ENV === "development" && (
           <p>
             Building an API from scratch was a challenging yet rewarding experience. It taught me how to connect the dots between front-end 
             and back-end development. I gained hands-on experience in handling databases, implementing CRUD operations, and managing data flow.
@@ -74,8 +69,6 @@ const HomePage = () => {
             that will serve me well in my future career. If you’re a fellow student or just starting your coding journey, I encourage you to dive into API 
             development—it's an invaluable skill that will enhance your understanding of web applications.
           </p>
-        
-        )}
       </div>
       <footer style={footerStyles}>
         <p>© 2024 Developing Web Apps. Sonoely Rivera.</p>
