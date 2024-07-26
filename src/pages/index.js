@@ -80,6 +80,7 @@ const HomePage = () => {
           React Native is not just a tool; it's a pathway to mastering cross-platform mobile development, empowering me to build innovative applications efficiently 
           and effectively.
           </p>
+          <br/>
           <img src="https://www.logicmonitor.com/wp-content/uploads/2021/09/JSONWebTokensblog.png" style={pictureStyles} />
           <h3>An Overview of JSON Web Tokens (JWT) - Jul 26</h3>
           <p>
