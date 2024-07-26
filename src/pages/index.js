@@ -80,6 +80,19 @@ const HomePage = () => {
           React Native is not just a tool; it's a pathway to mastering cross-platform mobile development, empowering me to build innovative applications efficiently 
           and effectively.
           </p>
+          <img src="https://www.logicmonitor.com/wp-content/uploads/2021/09/JSONWebTokensblog.png" style={pictureStyles} />
+          <h3>An Overview of JSON Web Tokens (JWT) - Jul 26</h3>
+          <p>
+          JSON Web Tokens (JWT) offer a streamlined and secure method for transmitting information between different parts of a web application. A JWT is divided into 
+          three segments: the header, which specifies the token type and the signing algorithm; the payload, which contains the claims or data about the user; and the 
+          signature, which ensures the integrity and authenticity of the token. This compact structure allows JWTs to be efficiently passed through URLs or HTTP headers, 
+          making them a valuable tool in modern web development.
+
+          In practice, JWTs are primarily used for authentication and authorization. When a user logs in, the server generates a JWT that includes the user's information, 
+          which is then used in subsequent requests to verify the user's identity. JWTs can also include authorization claims to manage user permissions. Despite their 
+          advantages—such as being self-contained and reducing server-side storage requirements—JWTs require careful attention to details like token expiration and secret 
+          management to ensure robust security.
+          </p>
       </div>
       <footer style={footerStyles}>
         <p>© 2024 Developing Web Apps. Sonoely Rivera.</p>
